@@ -12,17 +12,3 @@ C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmp
 C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Form2.resources
 C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.CopyComplete
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\bin\Debug\SistemaDeEmpadronamiento.exe.config
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\bin\Debug\SistemaDeEmpadronamiento.exe
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\bin\Debug\SistemaDeEmpadronamiento.pdb
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.AssemblyReference.cache
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.SuggestedBindingRedirects.cache
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Form1.resources
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Form2.resources
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Properties.Resources.resources
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.GenerateResource.cache
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.CoreCompileInputs.cache
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.CopyComplete
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.exe
-C:\Users\bebal\OneDrive\Documentos\PROGRA\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.pdb
