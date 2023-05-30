@@ -69,7 +69,7 @@ namespace SistemaDeEmpadronamiento
             //Abrimos la conexion
             Comando.Connection = Conexion.AbrirConexion();
             //Establecemos la sentencia sql
-            Comando.CommandText = "Select * From Ciudadanos";
+            Comando.CommandText = "SELECT Ciudadanos.Primer_Nombre, Ciudadanos.Segundo_Nombre, Ciudadanos.Primer_Apellido, Ciudadanos.Segundo_Apellido, Ciudadanos.Fecha_Nacimiento, Ciudadanos.CUI, Municipios.Nombre_Municipio, Departamentos.Nombre_Departamento \r\nFROM Ciudadanos\r\nINNER JOIN Municipios ON Ciudadanos.ID_Municipio = Municipios.ID_Municipio\r\nINNER JOIN Departamentos ON Ciudadanos.ID_Departamento = Departamentos.ID_Departamento";
             //Leemos las filas
             LeerFilas = Comando.ExecuteReader();
             //Cargamos filas
