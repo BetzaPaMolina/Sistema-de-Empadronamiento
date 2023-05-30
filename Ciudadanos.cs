@@ -61,5 +61,24 @@ namespace SistemaDeEmpadronamiento
             return Tabla;
         }
 
+        //Creamos un metodo publico de tipo datatable para listar la tabla ciudadanos
+        public DataTable ListarCiudadanosDGV()
+        {
+            //instanciamos al objeto datatable para almacenar los datos
+            DataTable Tabla = new DataTable();
+            //Abrimos la conexion
+            Comando.Connection = Conexion.AbrirConexion();
+            //Establecemos la sentencia sql
+            Comando.CommandText = "Select * From Ciudadanos";
+            //Leemos las filas
+            LeerFilas = Comando.ExecuteReader();
+            //Cargamos filas
+            Tabla.Load(LeerFilas);
+            //Cerramos la conexion
+            LeerFilas.Close();
+            Conexion.CerrarConexion();
+            return Tabla;
+        }
+
     }
 }

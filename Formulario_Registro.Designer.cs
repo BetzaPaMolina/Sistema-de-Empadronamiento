@@ -32,12 +32,12 @@
             this.cmbmunicipios = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtprimernombre = new System.Windows.Forms.TextBox();
             this.cmbdepartamentos = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtprimernombre = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtsegundonombre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -48,8 +48,8 @@
             this.txtsegundoapellido = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.datenacimiento = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.txtcui = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -106,6 +106,18 @@
             this.panel1.Size = new System.Drawing.Size(736, 100);
             this.panel1.TabIndex = 4;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.label4.Location = new System.Drawing.Point(0, 38);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(309, 23);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Ingresa los datos de los ciudadanos:";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -119,18 +131,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Bienvenida, @Betza";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.label4.Location = new System.Drawing.Point(0, 38);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(309, 23);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Ingresa los datos de los ciudadanos:";
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
@@ -141,6 +141,16 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(736, 62);
             this.panel2.TabIndex = 5;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // txtprimernombre
+            // 
+            this.txtprimernombre.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtprimernombre.Location = new System.Drawing.Point(191, 40);
+            this.txtprimernombre.Name = "txtprimernombre";
+            this.txtprimernombre.Size = new System.Drawing.Size(545, 22);
+            this.txtprimernombre.TabIndex = 4;
+            this.txtprimernombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cmbdepartamentos
             // 
@@ -163,15 +173,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Departamento";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // txtprimernombre
-            // 
-            this.txtprimernombre.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtprimernombre.Location = new System.Drawing.Point(191, 40);
-            this.txtprimernombre.Name = "txtprimernombre";
-            this.txtprimernombre.Size = new System.Drawing.Size(545, 22);
-            this.txtprimernombre.TabIndex = 4;
-            this.txtprimernombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel3
             // 
@@ -277,6 +278,14 @@
             this.panel6.Size = new System.Drawing.Size(736, 62);
             this.panel6.TabIndex = 9;
             // 
+            // datenacimiento
+            // 
+            this.datenacimiento.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.datenacimiento.Location = new System.Drawing.Point(191, 40);
+            this.datenacimiento.Name = "datenacimiento";
+            this.datenacimiento.Size = new System.Drawing.Size(545, 22);
+            this.datenacimiento.TabIndex = 4;
+            // 
             // label8
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Left;
@@ -287,14 +296,6 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Fecha de Nacimiento";
             this.label8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // datenacimiento
-            // 
-            this.datenacimiento.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.datenacimiento.Location = new System.Drawing.Point(191, 40);
-            this.datenacimiento.Name = "datenacimiento";
-            this.datenacimiento.Size = new System.Drawing.Size(545, 22);
-            this.datenacimiento.TabIndex = 4;
             // 
             // panel7
             // 
