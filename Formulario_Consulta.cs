@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaDeEmpadronamiento
 {
-    public partial class Form2 : Form
+    public partial class Formulario_Consulta : Form
     {
-        public Form2()
+        public Formulario_Consulta()
         {
             InitializeComponent();
-        }
-
-        private void btnregistrar_Click(object sender, EventArgs e)
-        {
-            Formulario_Registro Frm = new Formulario_Registro();
-            Frm.TopLevel = false;
-            panel2.Controls.Add(Frm);
-            Frm.Show();
         }
     }
 }

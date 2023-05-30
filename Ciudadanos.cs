@@ -10,6 +10,7 @@ namespace SistemaDeEmpadronamiento
 {
     internal class Ciudadanos
     {
+        /*
         //Instanciamos a la clase conexión
         private ConexionBD Conexion = new ConexionBD(); 
         //Instanciamos al objeto sql command para ejecutar instrucciones
@@ -18,7 +19,7 @@ namespace SistemaDeEmpadronamiento
         private SqlDataReader LeerFilas;
 
         //Creamos un metodo publico de tipo datatable para listar la tabla 
-        public DataTable Listar
+        public DataTable Listar*/
 
     }
 }

@@ -19,7 +19,7 @@ namespace SistemaDeEmpadronamiento
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            panel2.Width += 1;
+            panel2.Width += 2;
             if(panel2.Width >= 800)
             {
                 timer1.Stop();
@@ -27,6 +27,11 @@ namespace SistemaDeEmpadronamiento
                 f2.Show();
                 this.Hide();
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
