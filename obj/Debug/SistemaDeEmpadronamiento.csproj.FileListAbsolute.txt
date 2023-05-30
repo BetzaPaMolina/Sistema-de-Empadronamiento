@@ -1,0 +1,14 @@
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\bin\Debug\SistemaDeEmpadronamiento.exe.config
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\bin\Debug\SistemaDeEmpadronamiento.exe
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\bin\Debug\SistemaDeEmpadronamiento.pdb
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.AssemblyReference.cache
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.SuggestedBindingRedirects.cache
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Form1.resources
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Properties.Resources.resources
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.GenerateResource.cache
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.CoreCompileInputs.cache
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.exe
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.pdb
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.Form2.resources
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Betza\Documents\PROGRA\EJERCICIOS\SistemaDeEmpadronamiento\SistemaDeEmpadronamiento\obj\Debug\SistemaDeEmpadronamiento.csproj.CopyComplete
