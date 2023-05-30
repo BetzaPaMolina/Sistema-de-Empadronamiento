@@ -69,5 +69,56 @@ namespace SistemaDeEmpadronamiento
         {
 
         }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            ConexionBD conexionBD = new ConexionBD();
+            // Obtener los valores de los TextBox
+            string primerNombre = txtprimernombre.Text;
+            string segundoNombre = txtsegundonombre.Text;
+            string primerApellido = txtprimerapellido.Text;
+            string segundoApellido = txtsegundoapellido.Text;
+            DateTime fechaNacimiento = datenacimiento.Value;
+            string cui = txtcui.Text;
+            int idDepartamento = Convert.ToInt32(cmbdepartamentos.SelectedValue);
+            int idMunicipio = Convert.ToInt32(cmbmunicipios.SelectedValue);
+
+            // Crear la consulta SQL de inserción
+            string query = "INSERT INTO Ciudadanos (Primer_Nombre, Segundo_Nombre, Primer_Apellido, Segundo_Apellido, Fecha_Nacimiento, CUI, ID_Departamento, ID_Municipio) " +
+                           "VALUES (@PrimerNombre, @SegundoNombre, @PrimerApellido, @SegundoApellido, @FechaNacimiento, @CUI, @IDDepartamento, @IDMunicipio)";
+
+            using (SqlConnection connection = conexionBD.AbrirConexion())
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    // Agregar los parámetros
+                    command.Parameters.AddWithValue("@PrimerNombre", primerNombre);
+                    command.Parameters.AddWithValue("@SegundoNombre", segundoNombre);
+                    command.Parameters.AddWithValue("@PrimerApellido", primerApellido);
+                    command.Parameters.AddWithValue("@SegundoApellido", segundoApellido);
+                    command.Parameters.AddWithValue("@FechaNacimiento", fechaNacimiento);
+                    command.Parameters.AddWithValue("@CUI", cui);
+                    command.Parameters.AddWithValue("@IDDepartamento", idDepartamento);
+                    command.Parameters.AddWithValue("@IDMunicipio", idMunicipio);
+
+                    // Ejecutar el comando de inserción
+                    command.ExecuteNonQuery();
+                }
+            }
+
+            // Limpiar los TextBox después de la inserción
+            txtprimernombre.Text = "";
+            txtsegundonombre.Text = "";
+            txtprimerapellido.Text = "";
+            txtsegundoapellido.Text = "";
+            datenacimiento.ResetText();
+            txtcui.Text = ""; 
+
+
+
+            // Mostrar un mensaje de éxito
+            MessageBox.Show("Los datos se han insertado correctamente en la base de datos.");
+
+        }
     }
 }

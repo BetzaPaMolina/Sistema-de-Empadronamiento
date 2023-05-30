@@ -395,6 +395,7 @@
             this.btnRegistrar.TabIndex = 13;
             this.btnRegistrar.Text = "Registrar Ciudadano";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // panel12
             // 

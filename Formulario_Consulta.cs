@@ -34,5 +34,10 @@ namespace SistemaDeEmpadronamiento
             //El data source del combo box sera igual al objeto ciudadanos y su metodo de listar departamentos
             dgvRegistro.DataSource = objCiudadanos.ListarCiudadanosDGV();
         }
+
+        private void btnrefresh_Click(object sender, EventArgs e)
+        {
+            ListarCiudadanosDGV();
+        }
     }
 }

@@ -34,6 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnrefresh = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistro)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -96,6 +97,24 @@
             this.panel2.Size = new System.Drawing.Size(736, 500);
             this.panel2.TabIndex = 6;
             // 
+            // btnrefresh
+            // 
+            this.btnrefresh.BackColor = System.Drawing.Color.Transparent;
+            this.btnrefresh.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnrefresh.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnrefresh.ForeColor = System.Drawing.Color.White;
+            this.btnrefresh.IconChar = FontAwesome.Sharp.IconChar.ClockFour;
+            this.btnrefresh.IconColor = System.Drawing.Color.White;
+            this.btnrefresh.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnrefresh.Location = new System.Drawing.Point(559, 600);
+            this.btnrefresh.Name = "btnrefresh";
+            this.btnrefresh.Size = new System.Drawing.Size(177, 100);
+            this.btnrefresh.TabIndex = 7;
+            this.btnrefresh.Text = "Actualizar";
+            this.btnrefresh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnrefresh.UseVisualStyleBackColor = false;
+            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
+            // 
             // Formulario_Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -104,6 +123,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(736, 700);
+            this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -126,5 +146,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private FontAwesome.Sharp.IconButton btnrefresh;
     }
 }
